@@ -19,5 +19,6 @@ module NguyenDucAnh0123456789LibrarySystemFinalSubmission
     #
     # config.time_zone = "Central Time (US & Canada)"
     # config.eager_load_paths << Rails.root.join("extras")
+    config.hosts << "library-app-production-5dbc.up.railway.app"
   end
 end
