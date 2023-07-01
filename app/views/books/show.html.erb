@@ -41,6 +41,6 @@
         <p class="font-semibold">Subject:</p>
         <p><%= @book.subject.name %></p>
       </li>
-      <%= image_tag @book.image %>
+      <%= image_tag @book.image rescue 'No Image' %>
   </ul>
 </div>
