@@ -39,6 +39,10 @@
         <%= form.label :subject_id, class: label_class %>
           <%= form.select :subject_id, options_from_collection_for_select( Subject.all, 'id', 'name', selected = book.subject_id), class: label_class %>
       </div>
+      <div class="mb-6">
+      <%= form.label :image, class: label_class %>
+      <%= form.file_field :image, class: label_class %> 
+      </div>
 
 <%= form.submit class: button_class(theme: 'primary') %>
 
