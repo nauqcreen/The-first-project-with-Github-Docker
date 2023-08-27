@@ -1,25 +1,16 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## Starting server
 
-Things you may want to cover:
+`docker-compose up`
 
-* Ruby version
+## Accessing docker container
+Remember to run this before any of the command below
 
-* System dependencies
+`docker exec -it ins20065-proj_app_1 /bin/sh`
 
-* Configuration
+## Rails console
 
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
-# sample-123
+`rails c`
+or
+`docker exec -it ins20065-proj_app_1 rails c`
