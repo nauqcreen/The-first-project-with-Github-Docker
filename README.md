@@ -13,7 +13,7 @@
 ### Accessing docker container
 **Remember to run this before any of the command below**
 
-`docker exec -it ins20065-proj_app_1 /bin/sh`
+`docker exec -it ins20065-proj_app_1 /bin/bash`
 
 ### Bundle install
 Installing required libraries, you can run this command multiple time. If there is an error, let make sure this command has been executed successfully.
