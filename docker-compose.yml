@@ -10,7 +10,6 @@ services:
       DATABASE_USERNAME: postgres
       DATABASE_PASSWORD: postgres
     volumes:
-      - .:/app:cached
       - postgres-data:/var/lib/postgresql/data:cached
   redis:
     image: redis:5.0.4-alpine
