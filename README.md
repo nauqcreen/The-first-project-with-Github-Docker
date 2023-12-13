@@ -1,11 +1,11 @@
 # README
 
-## GROUP <add-group-name>
+## GROUP nguyenmanhquan
 
-- Member 1: <add-name>
-- Member 2: <add-name>
-- Member 3: <add-name>
-- Member 4: <add-name>
+- Member 1: Quan
+- Member 2: Linh
+- Member 3: Thu
+- Member 4: Nga
 
 ## Starting server
 
